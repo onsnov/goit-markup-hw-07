@@ -10,22 +10,16 @@
 
 .doing-list {
     display: flex;
-}
 
-.doing-list__item:not(:last-child) {
-    margin-right: 30px;
-}
+&__item:not(:last-child) {
+        margin-right: 30px;
+    }
 
-.doing-list__item {
-    width: 370px;
-}
+.item {
+ width: 370px;
+        }
 
-.item-wrapper {
-    display: flex;
-    position: relative;
-}
-
-.doing-list__text-link {
+&__text-link {
     display: flex;
     position: absolute;
     width: 370px;
@@ -44,3 +38,10 @@
     color: #ffffff;
     background-color: rgba(47, 48, 58, 0.8);
 }
+}
+
+.item-wrapper {
+    display: flex;
+    position: relative;
+}
+

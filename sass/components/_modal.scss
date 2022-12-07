@@ -53,20 +53,24 @@
     border-radius: 50%;
     background: $button-text-color;
     cursor: pointer;
-}
 
-.close-button__icon {
+    .icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-button:hover .close-button__icon {
+&:hover .icon {
     fill: $accent-color;
 }
 
-.close-button__icon {
+.icon {
     fill: #000000;
 }
 
-.close-button__icon:hover {
+.icon:hover {
     fill: $accent-color;
 }
+
+}
+
+
+
